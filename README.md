@@ -1,2 +1,0 @@
-eduroam-chromebook
-==================

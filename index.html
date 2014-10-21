@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<meta charset="utf-8"/><title>Chromebook - eduroam</title></head>
+  <body>
+    <center><u><h2> How to connect to the eduroam Network with a Chromebook </h2></u></center>
+    <br><h3>Here are the Step-by-Step instructions, how to connect to the eduroam network with a Chromebook or Chrome OS.</h3>
+    <br>
+    <p>
+   <ol>
+	<li>Download the encryption certificate of eduroam wich one you find here (The download starts automaticly)</li>
+<ul>
+	<li><a href="http://eduroam.lu/certs/cacert.crt" target="_blank">http://eduroam.lu/certs/cacert.crt</a></li>
+</ul>
+	<li>Now open your Chrome Browser and type in  chrome://settings/certificates</li>
+	<li>Switch to the tab “Authorities” click on the “Import” Button</li>
+	<li>Now select the cerificate who’s called “cacert.crt”</li>
+	<li>Check all the boxes and click on “OK”</li>
+	<li>Now open your WiFi settings and select the eduroam network</li>
+	<li>When the configuration screen appears make sure that you set the following settings:</li>
+
+<ul>
+	<li>EAP method: EAP-TTLS</li>
+	<li>Phase 2 authentication: PAP</li>
+	<li>Server CA certificate: RESTENA eduroam authority</li>
+	<li>Subject Match you dont have to change something</li>
+	<li>User certificate: None installed</li>
+	<li>Identify: YOUR USERNAME</li>
+	<li>Password: YOUR PASSWORD</li>
+	<li>Anonymous iden. you don’t have to change something</li>
+	<li>Check the box “Save identity and password”</li>
+</ul>
+	<li>Now click on “Connect”</li>
+	<li>Uff, you’re done.</li>
+</ol>
+
+  
+  </body>
+</html>
